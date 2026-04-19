@@ -52,4 +52,6 @@ pub enum Expr {
 
 	Add(Box<[Expr;2]>),
 	Sub(Box<[Expr;2]>),
+	Mul(Box<[Expr;2]>),
+	Div(Box<[Expr;2]>),
 }
